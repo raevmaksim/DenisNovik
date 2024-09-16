@@ -1,0 +1,19 @@
+/*
+font-family: 'GilroyBold';
+font-family: 'GilroyMedium';
+*/
+@font-face {
+  font-family: 'GilroyBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'GilroyMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Gilroy-Medium.ttf);
+}

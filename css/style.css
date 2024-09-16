@@ -1,0 +1,66 @@
+/* Обнуление */
+ 
+html {
+  box-sizing: border-box;
+ }
+ *, *::before, *::after {
+  box-sizing: inherit;
+ }
+ img {
+  display: block;
+ }
+ h1, h2, h3, h4, h5, h6, p, ul, li, a {
+  padding: 0;
+  margin: 0;
+ }
+ body {
+  margin: 0;
+  padding: 0;
+ }
+ 
+ /* Переменные с цветами */
+ 
+ :root {
+  --darck-color: #070707;
+  --white-color: #fff;
+  --gray-color: #828282;
+  --gray_bg-color: #f6f6f6;
+ }
+ 
+ /* Стили для текста */
+ 
+ .text_h1 {
+  font-family: 'GilroyBold';
+  font-size: 47.34px;
+  line-height: -1px;
+  text-align: left;
+  color: var(--darck-color);
+ }
+ .text_h2 {
+  font-family: 'GilroyBold';
+  font-size: 34px;
+  line-height: -1px;
+  text-align: center;
+ }
+ .text_h3 {
+  font-family: 'GilroyBold';
+  font-size: 14px;
+  line-height: -1px;
+  text-align: center;
+ }
+ .text_p {
+  font-family: 'GilroyMedium';
+  font-size: 18px;
+  line-height: -1px;
+  text-align: center;
+ }
+ 
+ /* Контэйнер */
+ 
+ .container {
+  max-width: 945px;
+  margin: 0 auto;
+ }
+
+ /* Header */
+ 
