@@ -64,3 +64,56 @@ html {
 
  /* Header */
  
+ .header_navmenu {
+  padding-top: 33.05px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border-bottom: 1px solid var(--gray-color);
+}
+.header_navmenu__item {
+  margin-bottom: 31.86px;
+
+}
+.header_navmenu__item a {
+  color: var(--gray-color);
+  text-decoration: none;
+  font-family: 'GilroyBold';
+  font-size: 18px;
+}
+.header_navmenu__item a:hover {
+  color: var(--darck-color);
+}
+.header_firstscreen__ {
+}
+.header_firstscreen__content {
+  padding-top: 35.69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 46px;
+}
+.header_firstscreen__title {
+  max-width: 123.51px;
+}
+.header_firstscreen__text {
+  max-width: 151px;
+  text-align: left;
+  margin-bottom: 9px;
+}
+.header_firstscreen__language {
+  padding-top: 61px;
+  transform: rotate(270deg); 
+  margin-right: 8px;
+}
+.header_firstscreen__language a {
+  font-family: 'GilroyBold';
+  font-size: 16px;
+  color: var(--gray-color);
+  text-decoration: none;
+}
+.header_firstscreen__language a:hover {
+  color: var(--darck-color);
+}
+.header_firstscreen__bg {
+}
