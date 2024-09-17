@@ -84,8 +84,6 @@ html {
 .header_navmenu__item a:hover {
   color: var(--darck-color);
 }
-.header_firstscreen__ {
-}
 .header_firstscreen__content {
   padding-top: 35.69px;
   display: flex;
@@ -115,8 +113,14 @@ html {
 .header_firstscreen__language a:hover {
   color: var(--darck-color);
 }
+.header__burger {
+  display: none;
+}
 .header_firstscreen__bg {
   margin-bottom: 104px;
+}
+.header_firstscreen__bg-mobil {
+  display: none;
 }
 /* About */
 .about {
@@ -231,4 +235,118 @@ html {
   color: var(--gray-color);
 }
 
+@media screen and (max-width: 375px) {
 
+  /* Header */
+
+  .container {
+    max-width: 315px;
+  }
+  .header {
+    padding-bottom: 83px;
+  }
+  .header_navmenu {
+    display: none;
+  }
+  .header_firstscreen__bg {
+    display: none;
+  }
+  .header_firstscreen__bg-mobil {
+    display: block;
+  }
+  .header_firstscreen__language {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+    width: 33px;
+  }
+  .header__burger_line {
+    background-color: var(--darck-color);
+    height: 4px;
+    margin-bottom: 4px;
+  }
+  .header_firstscreen {
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_firstscreen__content {
+    padding-top: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .header_firstscreen__title {
+    margin-bottom: 22px;
+  }
+
+  /* About */
+
+  .about {
+    padding-top: 75px;
+    background-color: var(--gray_bg-color);
+  }
+  .about_title {
+    margin-bottom: 40px;
+    }
+    .about_text__inner {
+      padding-bottom: 33px;
+    }
+
+  /* Skills */
+
+  .skiils {
+    padding-top: 78px;
+  }
+  .skiils_title {
+    margin-bottom: 40px;
+  }
+  .skiils_subtitle {
+    margin-bottom: 76px;
+  }
+  .skiils_items__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 84px;
+    margin-bottom: 102px;
+ }
+ .skiils_stars {
+  margin: 0 62px;
+  justify-content: space-evenly;
+  }
+
+  /*Portfolio*/
+
+  .portfolio {
+    padding-top: 76px;
+  }
+  .portfolio_card__img {
+    width: 316px;
+    margin-bottom: 34px;
+  }
+  .portfolio_card__link {
+    margin: 0 auto 81px;
+  }
+
+  /* Contact */
+  .contacts {
+    padding-top: 76px;
+  }
+  .contacts_title {
+    margin-bottom: 34px;
+  }
+  .contacts_text {
+    margin: 0 auto 45px;
+  }
+  .contacts_btn {
+    width: 315px;
+    margin: 0 auto 48px;
+  }
+  .contacts_social-icon {
+    margin-right: 52px;
+  }
+  .contacts_social-icons__text {
+    font-size: 18px;
+  }
+
+}
