@@ -116,4 +116,21 @@ html {
   color: var(--darck-color);
 }
 .header_firstscreen__bg {
+  margin-bottom: 104px;
 }
+/* About */
+.about {
+  padding-top: 115px;
+  background-color: var(--gray_bg-color);
+}
+.about_title {
+  margin-bottom: 25px;
+}
+.about_text__inner {
+  padding-bottom: 65px;
+}
+.about_text {
+  max-width: 435px;
+  margin: 0 auto 46px;
+}
+
