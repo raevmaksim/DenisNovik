@@ -188,5 +188,47 @@ html {
   color: var(--darck-color);
   margin: 0 auto 102px;
 }
+/* Footer-contacts */
+.contacts {
+  padding-top: 110px;
+  padding-bottom: 123px;
+}
+.contacts_title {
+  margin-bottom: 27px;
+}
+.contacts_text {
+  max-width: 276px;
+  margin: 0 auto 34px;
+}
+.text_p {
+}
+.contacts_btn {
+  display: block;
+  background-color: var(--darck-color);
+  color: var(--white-color);
+  width: 180px;
+  height: 42px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'GilroyBold';
+  font-size: 18px;
+  margin: 0 auto 86px;
+}
+.contacts_social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+.contacts_social-icon {
+  margin-right: 61px;
+}
+.contacts_social-icon:last-child {
+  margin-right: 0;
+}
+.contacts_social-icons__text {
+  font-family: 'GilroyMedium';
+  font-size: 14px;
+  color: var(--gray-color);
+}
 
 
