@@ -133,4 +133,60 @@ html {
   max-width: 435px;
   margin: 0 auto 46px;
 }
+/* Skills */
+.skiils {
+  padding-top: 86px;
+}
+.skiils_title {
+  margin-bottom: 59px;
+}
+.skiils_subtitle {
+  margin-bottom: 87px;
+}
+.skiils_items__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  gap: 90px;
+  margin-bottom: 114px;
+}
+.skiils_item {
+}
+.skiils_icon {
+  margin: 0 auto 23px;
+}
+.skiils_item__title {
+  max-width: 80px;
+  margin: 0 auto 40px;
+}
+.skiils_item:last-child .skiils_item__title {
+  margin-bottom: 55px;
+}
+.skiils_stars {
+  display: flex;
+  justify-content: space-around;
+}
+/* Portfolio */
+.portfolio {
+  padding-top: 108px;
+  background-color: var(--gray_bg-color);
+  padding-bottom: 98px;
+}
+.portfolio_title {
+  margin-bottom: 56px;
+}
+.portfolio_cards {
+}
+.portfolio_card:last-child .portfolio_card__link {
+  margin-bottom: 0;
+}
+.portfolio_card__img {
+  margin-bottom: 44px;
+}
+.portfolio_card__link {
+  display: block;
+  color: var(--darck-color);
+  margin: 0 auto 102px;
+}
+
 
